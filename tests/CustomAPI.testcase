@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase id="7">
+  <summary/>
+  <steps>
+    <apiCall apiId="customapis.Conversion" name="Conversion" testItemId="3" title="Conversion: ⇒ doallar">
+      <arguments>
+        <argument id="Value1">
+          <value class="value" valueClass="decimal">100</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">doallar</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase id="32">
+  <summary/>
+  <steps>
+    <caseCall testCaseId="0742fef3-368c-4075-907d-b711fba3aae5" testCasePath="tests/Test Case 3.testcase" testItemId="3">
+      <outputArguments>
+        <outputArgument id="a">
+          <name class="value" valueClass="string">b</name>
+        </outputArgument>
+      </outputArguments>
+    </caseCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="4" title="Set Values: k">
+      <arguments>
+        <argument id="values">
+          <value class="valueList" mutable="Mutable">
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">k</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="variable">
+                  <path element="a"/>
+                </value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+          </value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>
