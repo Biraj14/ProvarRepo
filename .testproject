@@ -37,6 +37,20 @@
         <testVariableValue secureStorageNodeId="205c169e-e344-47bd-943d-5a1335f5b25e"/>
       </values>
     </testVariable>
+    <testVariable name="_webDriverLogFile">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+        </constraints>
+      </valueType>
+      <summary/>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">C:\\Users\\biraj.deb\\Desktop\\weblogs.txt</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
   </variables>
   <connectionClasses>
     <connectionClass name="sf">

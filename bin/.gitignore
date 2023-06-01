@@ -1,3 +1,2 @@
-.provarCaches
-*.pdf
-*ANT
+/customapis/
+/pageobjects/
